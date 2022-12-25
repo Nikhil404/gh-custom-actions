@@ -7,8 +7,6 @@ on:
       - 'dev/**'
       - 'feature/**'
       - 'release/**'
-    paths-ignore:
-        - '.github/workflows/**'
 jobs:
   lint:
     runs-on: ubuntu-latest
